@@ -1,3 +1,5 @@
+var fs=require('fs')
+
 //create a folder
 async function createFolderSync(){
     await fs.mkdirSync('new')
@@ -16,13 +18,13 @@ async function createFolderSync(){
 }
 (async ()=>{
     await deleteFolderSync()
-})()
+})()*/
 
 
 
 
 //rename a folder
-async function renameFolderSync(){
+/*async function renameFolderSync(){
     await fs.renameSync('new','new2')
     console.log('rename folder successful')
 }
